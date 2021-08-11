@@ -1,0 +1,7 @@
+# adding employees
+ldapadd -D cn="Manager, dc=ltacademy,dc=com" -h 127.0.0.1 -w'wso2training' -x -f adding_olivia_lisa.ldif
+ldapadd -D cn="Manager, dc=ltacademy,dc=com" -h 127.0.0.1 -w'wso2training' -x -f adding_otheremployees.ldif
+ldapadd -D cn="Manager, dc=ltacademy,dc=com" -h 127.0.0.1 -w'wso2training' -x -f adding_owenHudson.ldif
+
+# modyfing passwords 
+ldapmodify -a -h 127.0.0.1 -D "cn=Manager,dc=ltacademy,dc=com" -w'wso2training' -f addingpasswords.ldif

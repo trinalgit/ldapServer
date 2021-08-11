@@ -1,0 +1,6 @@
+#adding suffix
+ldapadd -D cn="Manager, dc=ltacademy,dc=com" -h 127.0.0.1 -w'wso2training' -x -f root_dc.ldif
+
+#adding orgnizational units
+ldapadd -D cn="Manager, dc=ltacademy,dc=com" -h 127.0.0.1 -w'wso2trainng' -x -f ou_system.ldif
+ldapadd -D cn="Manager, dc=ltacademy,dc=com" -h 127.0.0.1 -w'wso2trainng' -x -f ou_books.ldif

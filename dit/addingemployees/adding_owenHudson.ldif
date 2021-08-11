@@ -1,0 +1,10 @@
+dn: cn=Owen Hudson,ou=permanent,dc=ltacademy,dc=com
+objectclass: person
+objectclass: inetOrgPerson
+cn: Owen Hudson
+sn: Hudson
+employeeType: Permanent
+mail: owen.hudson@lt.com
+mobile: 94771111111
+homePhone: 940112820001
+homePostalAddress: London

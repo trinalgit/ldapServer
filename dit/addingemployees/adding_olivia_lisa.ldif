@@ -1,0 +1,21 @@
+dn: cn=Olivia Gill,ou=contractor,dc=ltacademy,dc=com
+objectclass: person
+objectclass: inetOrgPerson
+cn: Olivia Gill
+sn: Gill
+employeeType: Contractor
+mail: olivia.gill@lt.com
+mobile: 94771111159
+homePhone: 940112820049
+homePostalAddress: Amsterdam
+
+dn: cn=Lisa McLean,ou=contractor,dc=ltacademy,dc=com
+objectclass: person
+objectclass: inetOrgPerson
+cn: Lisa McLean
+sn: McLean
+employeeType: Contractor
+mail: lisa.mclean@lt.com
+mobile: 94771111160
+homePhone: 940112820050
+homePostalAddress: Amsterdam

@@ -1,0 +1,9 @@
+dn: ou=permanent,dc=ltacademy,dc=com
+objectclass: organizationalunit
+ou: permanent
+description: Employee Type
+
+dn: ou=contractor,dc=ltacademy,dc=com
+objectclass: organizationalunit
+ou: contractor
+description: Employee Type
